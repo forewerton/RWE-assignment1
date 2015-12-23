@@ -4,15 +4,12 @@ Router.configure({
 Router.route('/', function() {
     this.render('home');
 });
-Router.route('/information', function() {
-    this.render('information');
+Router.route('/welcome', function() {
+    this.render('welcome');
 });
 Router.route('/call-paper', function() {
     this.render('call-paper');
 });
 Router.route('/past-events', function() {
     this.render('past-events');
-});
-Router.route('/news', function() {
-    this.render('news');
 });
